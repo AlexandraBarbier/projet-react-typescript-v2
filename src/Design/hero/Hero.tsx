@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import styled from "styled-components";
 import { HeroSection } from "../../ui/Sections";
+import Player from "../../player/Player";
 
 const TextContainer = styled.div`
   text-align: left;
@@ -22,6 +23,7 @@ export default function Hero(): ReactElement {
         </h1>
         <p>Parcourir les médias</p>
       </TextContainer>
+      <Player></Player>
     </HeroSection>
   );
 }

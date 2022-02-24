@@ -9,6 +9,7 @@ import {
   faFolder,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavContainer, IconsContainer } from "../../ui/BottomNav";
+import User from "./user/User";
 
 export default function Nav(): ReactElement {
   return (
@@ -22,9 +23,7 @@ export default function Nav(): ReactElement {
       <IconsContainer>
         <FontAwesomeIcon icon={faFolder} />
       </IconsContainer>
-      <IconsContainer>
-        <FontAwesomeIcon icon={faUserAstronaut} />
-      </IconsContainer>
+      <User></User>
     </NavContainer>
   );
 }

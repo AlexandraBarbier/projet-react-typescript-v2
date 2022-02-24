@@ -7,7 +7,7 @@ export const YellowParagraph = styled.p`
 `;
 
 export const BigTitle = styled.h1`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Raleway;
 `;
 

@@ -13,6 +13,9 @@ import CatCardsContainer from "./categorie/CatCardsContainer";
 import DisplayPopular from "./popular/DisplayPopular";
 import DisplayProposals from "./proposals/DisplayProposals";
 import DisplayBottomNav from "./bottom-nav/DisplayBottomNav";
+import UserInfos from "./UserInfos";
+import Counter from "../counter/Counter";
+import SearchForm from "../SearchForm/SearchForm";
 
 const SearchBar = styled.div`
   height: 6vh;
@@ -49,7 +52,10 @@ export default function Design(): ReactElement {
       <CatCardsContainer></CatCardsContainer>
       <DisplayProposals></DisplayProposals>
       <DisplayPopular></DisplayPopular>
+      <UserInfos></UserInfos>
       <DisplayBottomNav></DisplayBottomNav>
+      <Counter></Counter>
+      <SearchForm></SearchForm>
     </div>
   );
 }

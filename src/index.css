@@ -34,7 +34,7 @@ body {
   background: var(--black-bg);
   color: var(--white);
   font-family: Raleway;
-  min-height: 300vh;
+  min-height: 500vh;
 }
 
 .categories {
@@ -79,4 +79,9 @@ body {
 
 .icons {
   padding-left: 1rem;
+}
+
+.user-container.show {
+  color: #ff0066;
+  display: block;
 }
