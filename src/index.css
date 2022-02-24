@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 16px;
+}
+
+:root {
+  --black: #111;
+  --black-bg: #222;
+  --dark-grey: #333;
+  --light-grey: #999;
+  --white: #fff;
+  --black-opacity: rgba(17, 17, 17, 0.8);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  align-content: center;
+}
+
+body {
+  background: var(--black-bg);
+  color: var(--white);
+  font-family: Raleway;
+  min-height: 300vh;
+}
+
+.categories {
+  background: var(--white);
+  border-radius: 0.5em;
+  width: 90px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 0rem 0.2rem;
+}
+
+.categories h2 {
+  font-size: 0.8rem;
+  color: var(--black);
+  padding-top: 0.5rem;
+}
+
+.categories svg {
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.music {
+  background: turquoise;
+}
+
+.podcast {
+  background: #ff0066;
+}
+
+.chat {
+  background: greenyellow;
+}
+
+.images {
+  background: #ffea2d;
+}
+
+.icons {
+  padding-left: 1rem;
 }
